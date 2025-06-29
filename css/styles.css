@@ -22,6 +22,10 @@ a {
     margin-bottom: 0;
 }
 
+img {
+    display: block;
+}
+
 .container {
     width: 1128px;
     padding-left: 156px;
@@ -176,7 +180,6 @@ a {
 
 .feature-list-item {
     width: 264px;
-    height: 104px;
 }
 
 .feature-title {
@@ -217,8 +220,6 @@ a {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 
 .team-list-item {
@@ -256,7 +257,6 @@ a {
 }
 
 .portfolio {
-    margin: 120px 156px 120px 156px;
 }
 
 .portfolio-item {
@@ -278,7 +278,6 @@ a {
     gap: 24px;
     padding-left: 0px;
     justify-content: center;
-    width: 1140px;
 }
 
 .portfolio-title-list {
