@@ -27,15 +27,17 @@ img {
 }
 
 .container {
-    width: 1128px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
+    display: flex;
 }
 
 .header {
     padding-bottom: 24px;
     padding-top: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -256,8 +258,7 @@ img {
     background-color: #2E2F42;
 }
 
-.portfolio {
-}
+.portfolio {}
 
 .portfolio-item {
     font-weight: 700;
