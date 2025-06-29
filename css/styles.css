@@ -54,7 +54,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-items: center;
+     
 }
 
 .header-navigation-direction ul {
@@ -263,6 +263,7 @@ img {
 }
 
 .team-title {
+    display: flex;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -272,12 +273,14 @@ img {
     text-transform: capitalize;
     padding-top: 120px;
     margin-bottom: 72px;
+
 }
 
 .team-list {
     display: flex;
     gap: 24px;
     justify-content: center;
+
 }
 
 .team-list-item {
