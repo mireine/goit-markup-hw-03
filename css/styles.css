@@ -258,6 +258,8 @@ img {
 
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -269,11 +271,10 @@ img {
     text-align: center;
     text-transform: capitalize;
     padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .team-list {
-    padding-top: 72px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
     justify-content: center;
@@ -286,6 +287,9 @@ img {
     padding: 0px 0px 32px 0px;
 }
 
+.team-card-text{
+    padding: 0px 0px 32px 0px;
+}
 
 .team-list-item-image {}
 
@@ -297,6 +301,7 @@ img {
     color: #2E2F42;
     text-align: center;
     padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-list-item-subtitle {
