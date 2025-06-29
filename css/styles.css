@@ -162,9 +162,9 @@ img {
 }
 
 .hero-banner .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-banner-title {
@@ -179,13 +179,15 @@ img {
     margin-right: auto;
     margin-bottom: 48px;
 }
+
 :root {
-  --primary-color: #4d5ae5;
+    --primary-color: #4d5ae5;
 }
 
 .hero-banner-button-primary {
-  background-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
+
 .hero-banner-button-primary {
     color: #FFFFFF;
     font-weight: 500;
@@ -202,7 +204,7 @@ img {
     margin-right: auto;
     border: none;
     height: 56px;
-    min-width: 169px 
+    min-width: 169px
 }
 
 .hero-banner-button-primary:hover {
@@ -213,21 +215,32 @@ img {
     background-color: #404BBF;
 }
 
-.feature {}
+.feature {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
 
 .feature-heading {
     display: none;
 }
 
 .feature-list {
-    padding-top: 120px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
 
 .feature-list-item {
-    width: 264px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .feature-title {
