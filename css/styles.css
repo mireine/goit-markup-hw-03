@@ -344,7 +344,6 @@ img {
 
 .portfolio-title {
     background-color: #FFFFFF;
-    padding-top: 72px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
@@ -355,7 +354,6 @@ img {
 }
 
 .portfolio-title-list {
-    padding-bottom: 48px;
     width: 360px;
     height: 420px;
     margin-bottom: 8px;
