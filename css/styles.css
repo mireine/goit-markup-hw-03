@@ -419,7 +419,7 @@ img {
 .text-highlight-footer {
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
-    display: inline-block;
+    display: inline-block; !important
 }
 
 .bottom-title {
