@@ -417,15 +417,16 @@ img {
 }
 
 .text-highlight-footer {
+    display: inline-block;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
-    display: inline-block; !important
+
 }
- 
+
 .bottom-title {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #F4F4FD; 
+    color: #F4F4FD;
     max-width: 264px;
 }
