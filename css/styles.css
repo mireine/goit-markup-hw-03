@@ -416,6 +416,10 @@ img {
     margin-bottom: 16px;
 }
 
+a.logo-footer{
+    display: inline-block;
+}
+
 .text-highlight-footer {
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
