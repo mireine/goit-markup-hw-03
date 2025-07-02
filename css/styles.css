@@ -340,7 +340,6 @@ img {
     color: #2E2F42;
     text-transform: capitalize;
     margin-bottom: 72px;
-    margin-bottom: 8px
 }
 
 .portfolio-title {
@@ -378,7 +377,7 @@ img {
     color: #2E2F42;
     padding-top: 32px;
     padding-left: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 8px
 }
 
 .portfolio-list-item:nth-last-child(-n+3) {
