@@ -413,13 +413,13 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     line-height: 117%;
-
     margin-bottom: 16px;
 }
 
 .text-highlight-footer {
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
+    display: inline-block;
 }
 
 .bottom-title {
