@@ -30,6 +30,10 @@ img {
     display: block;
 }
 
+.logo-footer {
+    display: inline-block;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -404,9 +408,7 @@ img {
     align-items: flex-start;
 }
 
-.logo-footer {
-    display: inline-block;
-}
+
 
 .logo-footer {
     display: inline-block;
