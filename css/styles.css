@@ -357,12 +357,17 @@ img {
 
 .portfolio-title-list {
     padding-bottom: 48px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
     width: 360px;
     height: 420px;
+    margin-bottom: 8px;
 }
 
 .portfolio-title-list-image {}
+
+.portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
 
 .portfolio-list-item {
     font-weight: 500;
