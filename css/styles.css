@@ -276,7 +276,7 @@ img {
     color: #2E2F42;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 72px; 
+    margin-bottom: 72px;
 
 }
 
@@ -371,11 +371,12 @@ img {
     color: #2E2F42;
     padding-top: 32px;
     padding-left: 16px;
-     margin-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .portfolio-list-item:nth-last-child(-n+3) {
-  margin-bottom: 0;}
+    margin-bottom: 0;
+}
 
 .portfolio-list-item-text {
     font-size: 16px;
@@ -391,6 +392,14 @@ img {
     padding-bottom: 100px;
 }
 
+.footer-container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 .logo-footer {
     font-family: "Raleway", sans-serif;
@@ -400,6 +409,8 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     line-height: 117%;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .text-higlight-footer {
