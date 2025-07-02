@@ -31,12 +31,16 @@ img {
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .team-container {
@@ -404,10 +408,6 @@ img {
 }
 
 .logo-footer {
-    display: inline-block;
-}
-
-.logo-footer {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -416,6 +416,7 @@ img {
     color: #4d5ae5;
     line-height: 117%;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 
